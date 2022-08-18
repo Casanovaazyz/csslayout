@@ -1,0 +1,27 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+
+header{display:flex;justify-content:space-around;position: sticky;top: 0%;background-color: aliceblue;}
+ul{display: flex;
+list-style: none;}
+li{margin: 20px;}
+.hover{color: blue;}
+li:hover{color: blue;}
+
+.partie-1{
+text-align: center;
+}
+.partie-1 img{margin: 30px;}
+.partie-1 h1{color: #00b39b;}
+.para{display: flex;
+text-align: center;justify-content:center ;} 
+
+p{ width: 500px;margin: 50px;}
+.carte-1{background-color: #00ccb1;border-radius: 8px;width: 400px;height:400px;color: aliceblue;}
+.carte-2{background-color: #3d83df;border-radius: 8px;width: 400px;height:400px;color: aliceblue;}
+.carte-3{background-color: #1b2734;border-radius: 8px;width: 400px;height:400px;color: aliceblue;}
+.khedma-2{display: flex;text-align: center;justify-content: center;}
+.khedma2 div{margin: 20px;}
+.party-4{display: flex;justify-content: center;}
+.party-4 ul{display: flex;flex-wrap:wrap;width: 1000px;}
+
+
