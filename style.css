@@ -20,8 +20,36 @@ p{ width: 500px;margin: 50px;}
 .carte-2{background-color: #3d83df;border-radius: 8px;width: 400px;height:400px;color: aliceblue;}
 .carte-3{background-color: #1b2734;border-radius: 8px;width: 400px;height:400px;color: aliceblue;}
 .khedma-2{display: flex;text-align: center;justify-content: center;}
-.khedma2 div{margin: 20px;}
+.khedma2 div{margin: 20px;font-weight: 300;}
 .party-4{display: flex;justify-content: center;}
-.party-4 ul{display: flex;flex-wrap:wrap;width: 1000px;}
+.party-4 ul{display: flex;flex-wrap:wrap;width: 1000px;} 
+.party-4 h1{color: #00b39b;margin: 1cm;}
+#dropDown{
+    position: relative;
+}
+#listMenu{
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    position: absolute;
+    top: 20px;
+    padding: 50px;
+    list-style: none;
+    display: none;
+    height: 300px;
+}
+#dropDown:hover #listMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+    .page-2{display:flex ;}
+     .le5raa{ 
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    
 
 
